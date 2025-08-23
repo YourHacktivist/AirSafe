@@ -7,12 +7,16 @@
 
 ## What is AirSafe?
 
-AirSafe is a network security tool designed to scan for and identify devices on your local Wi-Fi network. Its primary function is to help you detect potentially hidden or unknown devices, such as spy cameras, in environments like Airbnb rentals. By performing a deep network scan, AirSafe provides a list of connected devices and assigns a trust score, helping you assess the security of your temporary accommodation.
+AirSafe is a network security tool designed to scan for and identify devices on your local Wi-Fi network.  
+**Its primary function is to help you detect potentially hidden or unknown devices, such as spy cameras, in environments like Airbnb rentals.** 
+  
+Through a deep scan, AirSafe lists connected devices, assigns a trust score, and helps you gauge your accommodation’s security. Its added value lies in offering a graphical and highly accessible interface, **<ins>making it easy for non-technical users to understand and act on the results.</ins>**
 
 
 ## Requirements
 
-AirSafe requires **Nmap**, a widely-used and powerful open-source network scanning utility. You must have Nmap installed on your system for AirSafe to function correctly.
+AirSafe requires **Nmap**, a widely-used and powerful open-source network scanning utility.  
+You must have Nmap installed on your system for AirSafe to function correctly.
 
 -   You can download and install Nmap from here: [https://nmap.org/download.html](https://nmap.org/download.html)
 
