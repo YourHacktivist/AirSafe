@@ -1,6 +1,8 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/YourHacktivist/AirSafe/main/public/banner.png" alt="AirSafe Logo" width="300"/>
+  <br>
+  <i>Stay safe in your Airbnb rental</i>
 </p>
 
 ## What is AirSafe?
