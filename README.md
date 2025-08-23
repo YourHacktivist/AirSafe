@@ -1,7 +1,7 @@
 # AirSafe
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YourHacktivist/AirSafe/main/public/logo.png" alt="AirSafe Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/YourHacktivist/AirSafe/main/public/banner.png" alt="AirSafe Logo" width="200"/>
 </p>
 
 ## What is AirSafe?
