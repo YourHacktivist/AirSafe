@@ -3,6 +3,12 @@ const path = require('path');
 const nmapDetector = require('./nmap-detector');
 const nmapScanner = require('./nmap-scanner');
 
+app.commandLine.appendSwitch('no-sandbox');
+app.commandLine.appendSwitch('disable-gpu');
+app.commandLine.appendSwitch('disable-features', 'AudioServiceOutOfProcess');
+app.commandLine.appendSwitch('ffmpeg-path', '');
+
+
 const isDev = process.env.ELECTRON_IS_DEV === '1';
 
 let mainWindow;
@@ -62,10 +68,6 @@ function createWindow() {
 
 app.whenReady().then(() => {
   createWindow();
-  
-  app.commandLine.appendSwitch('enable-features', 'VaapiVideoDecoder');
-  app.commandLine.appendSwitch('ignore-gpu-blacklist');
-  app.commandLine.appendSwitch('enable-gpu-rasterization');
 });
 
 app.on('window-all-closed', () => {
