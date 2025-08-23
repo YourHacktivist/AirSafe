@@ -1,0 +1,495 @@
+{
+  "virtual": {
+    "vendors": [
+      "vmware", "virtualbox", "vbox", "parallels", "microsoft corporation",
+      "xen", "qemu", "kvm", "hyperv", "hyper-v", "docker", "kubernetes",
+      "citrix", "oracle", "red hat", "proxmox", "nutanix", "esxi"
+    ],
+    "hostnames": [
+      "vmware", "virtualbox", "vbox", "parallels", "vm-", "virtual",
+      "docker", "k8s", "kubernetes", "hyperv", "hyper-v", "esxi",
+      "citrix", "xen", "kvm", "proxmox", "container"
+    ],
+    "ip_ranges": [
+      "192.168.100.", "192.168.200.", "172.16.", "172.17.", "172.18.",
+      "172.19.", "172.20.", "10.0.2.", "192.168.56.", "192.168.122."
+    ],
+    "type": "virtual-machine"
+  },
+  
+  "routers": {
+    "vendors": [
+      "netgear", "linksys", "tp-link", "d-link", "asus", "belkin",
+      "cisco", "ubiquiti", "mikrotik", "juniper", "fortinet",
+      "pfsense", "openwrt", "dd-wrt", "buffalo", "tenda", "arris",
+      "motorola", "comtrend", "huawei", "zte", "alcatel",
+      "alcatel-lucent", "actiontec", "billion", "broadcom",
+      "zyxel", "fritz!box", "avm", "devolo", "lancom",
+      "teltonika", "peplink", "cradlepoint", "sierra wireless",
+      "quectel", "airties", "mercusys", "cudy", "wavlink",
+      "xiaomi", "honor", "totolink", "strong", "sunhillo"
+    ],
+    "hostnames": [
+      "router", "gateway", "openwrt", "dd-wrt", "pfsense", "mikrotik",
+      "ubiquiti", "unifi", "edgerouter", "nighthawk", "archer",
+      "dir-", "wrt", "rt-", "ac", "ax", "wifi", "modem",
+      "fritz", "fritzbox", "speedport", "easybox", "homebox",
+      "livebox", "bbox", "freebox", "repeater", "extender",
+      "mesh", "node", "beacon", "orbi", "velop", "deco",
+      "amplifi", "alien", "dream", "udm", "usg", "edgemax"
+    ],
+    "ip_endings": [".1", ".254", ".100", ".2", ".10", ".20"],
+    "mac_oui": [
+      "00:24:A5", "20:47:DA", "14:CC:20", "18:A6:F7",
+      "00:03:6B", "00:01:42", "00:1E:E5", "70:CA:9B",
+      "10:C3:7B", "08:60:6E", "00:E0:18", "04:D4:C4",
+      "00:26:5A", "00:90:A9", "00:1F:33", "00:15:E9"
+    ],
+    "type": "router"
+  },
+
+  "isp_modems": {
+    "vendors": [
+      "freebox", "orange", "sfr", "bouygues", "numericable",
+      "technicolor", "sagemcom", "netgear", "arris", "motorola",
+      "thomson", "sagem", "alice", "neuf", "darty", "virgin",
+      "vodafone", "telekom", "o2", "sky", "bt", "plusnet",
+      "talktalk", "ee", "three", "comcast", "xfinity", "spectrum",
+      "cox", "verizon", "at&t", "centurylink", "charter",
+      "optimum", "cablevision", "suddenlink", "mediacom",
+      "windstream", "frontier", "bell", "rogers", "shaw",
+      "videotron", "cogeco", "telus", "sasktel", "mts"
+    ],
+    "hostnames": [
+      "freebox", "livebox", "neufbox", "bbox", "freeplayer",
+      "fbxgw", "liveplug", "repeteur", "extender", "modem",
+      "gateway", "cable", "dsl", "fiber", "fibre", "adsl",
+      "vdsl", "ftth", "docsis", "speedport", "easybox",
+      "homebox", "superhub", "hitron", "technicolor"
+    ],
+    "type": "isp-modem"
+  },
+
+  "mobile_devices": {
+    "vendors": [
+      "apple", "samsung", "xiaomi", "huawei", "oppo", "vivo",
+      "oneplus", "lg", "sony", "google", "motorola", "nokia",
+      "htc", "zte", "tcl", "realme", "honor", "nothing",
+      "fairphone", "blackberry", "palm", "essential", "razer",
+      "asus", "lenovo", "alcatel", "blu", "cat", "crosscall",
+      "doogee", "elephone", "gigaset", "infinix", "itel",
+      "jolla", "kyocera", "meizu", "nubia", "oukitel",
+      "sharp", "tecno", "ulefone", "umidigi", "vernee",
+      "wiko", "yu", "zuk", "iuni", "gionee", "coolpad"
+    ],
+    "os_patterns": [
+      "apple", "samsung", "xiaomi", "huawei", "oppo", "vivo",
+      "oneplus", "lg", "sony", "google", "motorola", "nokia",
+      "htc", "zte", "tcl", "realme", "honor", "nothing",
+      "fairphone", "blackberry", "palm", "essential", "razer",
+      "asus", "lenovo", "alcatel", "blu", "cat", "crosscall",
+      "doogee", "elephone", "gigaset", "infinix", "itel",
+      "jolla", "kyocera", "meizu", "nubia", "oukitel",
+      "sharp", "tecno", "ulefone", "umidigi", "vernee",
+      "wiko", "yu", "zuk", "iuni", "gionee", "coolpad", "iphone", "ipad", "android", "galaxy", "xiaomi", "huawei",
+      "oneplus", "pixel", "sm-", "redmi", "mi-", "poco",
+      "mate", "p30", "p40", "p50", "p60", "nova", "honor",
+      "oppo", "vivo", "realme", "nothing", "fairphone",
+      "xperia", "lg-", "moto", "nokia", "htc", "zte"
+    ],
+    "hostnames": [
+      "iphone", "ipad", "android", "galaxy", "xiaomi", "huawei",
+      "oneplus", "pixel", "sm-", "redmi", "mi-", "poco",
+      "mate", "p30", "p40", "p50", "p60", "nova", "honor",
+      "oppo", "vivo", "realme", "nothing", "fairphone",
+      "xperia", "lg-", "moto", "nokia", "htc", "zte"
+    ],
+    "patterns": [
+      "iphone", "android-", "galaxy-", "sm-", "redmi", "mi-",
+      "oneplus", "pixel", "xperia", "lg-", "moto", "nokia-",
+      "htc-", "honor-", "huawei-", "oppo-", "vivo-", "realme-"
+    ],
+    "services": [
+        "21", "22", "23", "53", "80", "81", "110", "443", "554", "993", "995",
+    "1935", "5000", "5001", "5002", "5003", "8000", "8080", "8081",
+    "8443", "8554", "9000"
+    ],
+    "mac_oui": [
+      "00:03:93", "3C:07:54", "70:56:81", "A4:B1:97",
+      "00:07:AB", "3C:8B:FE", "88:32:9B", "E4:40:E2",
+      "50:8A:06", "34:80:B3", "78:02:F8", "8C:BE:BE"
+    ],
+    "type": "mobile"
+  },
+
+  "smart_tvs": {
+    "vendors": [
+      "samsung", "lg", "sony", "panasonic", "philips", "tcl",
+      "hisense", "sharp", "toshiba", "roku", "amazon", "nvidia",
+      "xiaomi", "thomson", "continental edison", "blaupunkt",
+      "grundig", "loewe", "metz", "telefunken", "medion",
+      "ok", "silvercrest", "proscan", "insignia", "westinghouse",
+      "element", "jvc", "magnavox", "rca", "sceptre", "vizio",
+      "haier", "changhong", "konka", "skyworth", "coocaa",
+      "chiq", "ffalcon", "onida", "kodak", "thomson", "bpl"
+    ],
+    "hostnames": [
+      "tv", "smarttv", "samsung", "lg", "sony", "bravia",
+      "chromecast", "firetv", "roku", "appletv", "nvidia-shield",
+      "androidtv", "webos", "tizen", "vidaa", "my home screen",
+      "tcl", "hisense", "philips", "panasonic", "sharp"
+    ],
+    "services": ["8008", "8009", "9080", "7001", "8080", "443", "80"],
+    "mac_oui": [
+      "00:26:E2", "3C:8B:FE", "CC:6E:A4", "E8:FB:1C",
+      "00:1E:75", "3C:CD:57", "A0:AB:1B", "78:5D:C8",
+      "00:0D:F0", "AC:9B:0A", "80:46:9A", "54:42:49"
+    ],
+    "type": "smart-tv"
+  },
+
+  "computers": {
+    "vendors": [
+      "dell", "hp", "lenovo", "asus", "acer", "msi", "gigabyte",
+      "apple", "microsoft", "intel", "amd", "nvidia", "asrock",
+      "biostar", "evga", "supermicro", "origin pc", "alienware",
+      "razer", "corsair", "nzxt", "cyberpower", "ibuypower",
+      "maingear", "digital storm", "falcon northwest", "puget",
+      "system76", "framework", "pine64", "tuxedo", "slimbook",
+      "star labs", "entroware", "zareason", "emperor linux",
+      "minifree", "vikings", "technoethical", "libiquity",
+      "huawei", "xiaomi", "honor", "chuwi", "jumper", "teclast",
+      "cube", "onda", "voyo", "gole", "pipo", "bmax", "yepo"
+    ],
+    "hostnames": [
+      "desktop", "laptop", "pc-", "macbook", "imac", "mac",
+      "windows", "ubuntu", "linux", "fedora", "debian",
+      "thinkpad", "pavilion", "inspiron", "latitude", "precision",
+      "elitebook", "probook", "spectre", "envy", "omen",
+      "ideapad", "thinkcentre", "yoga", "legion", "vivobook",
+      "zenbook", "rog", "tuf", "predator", "nitro", "aspire",
+      "swift", "spin", "surface", "studio", "book", "go"
+    ],
+    "os_patterns": [
+      "windows", "macos", "linux", "ubuntu", "fedora", "debian",
+      "centos", "rhel", "mint", "arch", "manjaro", "opensuse",
+      "elementary", "zorin", "pop", "solus", "endeavour"
+    ],
+    "services": [
+        "21", "22", "23", "53", "80", "81", "110", "443", "554", "993", "995",
+    "1935", "5000", "5001", "5002", "5003", "8000", "8080", "8081",
+    "8443", "8554", "9000"
+    ],
+    "mac_oui": [
+      "00:50:56", "00:0C:29", "00:05:69", "D8:50:E6",
+      "00:1F:29", "70:5A:B6", "34:17:EB", "F0:92:1C",
+      "00:02:B3", "00:1A:4B", "28:D2:44", "E4:54:E8"
+    ],
+    "type": "computer"
+  },
+
+  "smart_speakers": {
+    "vendors": [
+      "amazon", "google", "apple", "sonos", "bose", "harman",
+      "jbl", "ultimate ears", "marshall", "bang & olufsen",
+      "devialet", "libratone", "naim", "focal", "kef", "klipsch",
+      "polk", "yamaha", "denon", "marantz", "onkyo", "pioneer",
+      "cambridge", "audioengine", "edifier", "creative", "logitech",
+      "xiaomi", "alibaba", "baidu", "tencent", "yandex", "mail.ru"
+    ],
+    "hostnames": [
+      "echo", "alexa", "nest", "google", "homepod", "sonos",
+      "bose", "jbl", "speaker", "soundbar", "tmall", "xiaodu",
+      "xiaoai", "yandex", "alice", "marshall", "ue", "megaboom"
+    ],
+    "services": ["8009", "1400", "3400", "7000", "80", "443"],
+    "type": "smart-speaker"
+  },
+
+  "cameras": {
+    "vendors": [
+      "hikvision", "dahua", "axis", "bosch", "panasonic",
+      "sony", "samsung", "lg", "vivotek", "foscam",
+      "reolink", "arlo", "nest", "ring", "wyze", "eufy",
+      "tp-link", "d-link", "netgear", "trendnet", "amcrest",
+      "lorex", "swann", "night owl", "zmodo", "zosi",
+      "annke", "floureon", "sricam", "wansview", "vstarcam",
+      "apeman", "cooau", "toguard", "jennov", "gw security",
+      "revo", "q-see", "defender", "uniden", "samsung wisenet",
+      "honeywell", "pelco", "avigilon", "mobotix", "acti",
+      "arecont", "geovision", "milestone", "genetec", "exacq",
+      "hanwha", "uniview", "tiandy", "xiongmai", "xmeye"
+    ],
+    "hostnames": [
+      "cam", "camera", "ipcam", "webcam", "surveillance",
+      "security", "cctv", "nvr", "dvr", "hikvision",
+      "dahua", "axis", "foscam", "reolink", "arlo",
+      "ring", "nest-cam", "wyze", "eufy", "amcrest",
+      "ds-", "ipc-", "dh-", "ptz-", "dome-", "bullet-"
+    ],
+    "services": ["554", "8000", "8080", "80", "443", "37777", "2020", "8899"],
+    "suspicious_services": ["rtsp", "onvif", "mjpeg", "h264", "h265"],
+    "mac_oui": [
+      "18:68:CB", "28:57:BE", "44:19:B6", "BC:AD:28",
+      "4C:11:BF", "90:02:A9", "D4:AD:FC", "00:12:16",
+      "AC:CC:8E", "B8:A4:4F", "00:40:8C", "00:50:7F"
+    ],
+    "type": "camera"
+  },
+
+  "iot_devices": {
+    "vendors": [
+      "philips", "tp-link", "xiaomi", "tuya", "shelly",
+      "sonoff", "fibaro", "aeotec", "zwave", "zigbee",
+      "samsung smartthings", "hubitat", "wink", "vera",
+      "homeseer", "domoticz", "openhab", "home assistant",
+      "nest", "ecobee", "honeywell", "emerson", "white rodgers",
+      "sensi", "lux", "radio thermostat", "venstar", "carrier",
+      "trane", "lennox", "york", "goodman", "rheem", "bosch",
+      "osram", "ikea", "lifx", "wyze", "kasa", "sengled",
+      "nanoleaf", "yeelight", "govee", "feit", "cree", "ge",
+      "lutron", "leviton", "insteon", "x10", "belkin wemo"
+    ],
+    "hostnames": [
+      "hue", "bridge", "bulb", "switch", "sensor", "thermostat",
+      "doorbell", "lock", "plug", "outlet", "dimmer",
+      "motion", "door", "window", "temperature", "humidity",
+      "esp8266", "esp32", "nodemcu", "wemos", "sonoff",
+      "shelly", "tasmota", "smartthings", "wink", "vera",
+      "kasa", "wemo", "lifx", "wyze", "sengled", "yeelight"
+    ],
+    "services": ["80", "443", "1883", "8883", "5353", "1900"],
+    "type": "iot-device"
+  },
+
+  "gaming_consoles": {
+    "vendors": [
+      "sony", "microsoft", "nintendo", "valve", "steam",
+      "sega", "atari", "snk", "arcade1up", "hyperkin",
+      "retroid", "anbernic", "powkiddy", "rg35xx", "miyoo"
+    ],
+    "hostnames": [
+      "ps4", "ps5", "playstation", "xbox", "nintendo",
+      "switch", "steamdeck", "steam", "sega", "atari",
+      "retrogaming", "emulation", "arcade"
+    ],
+    "services": ["9295", "88", "3074", "6667", "12400", "28910"],
+    "type": "gaming-console"
+  },
+
+  "network_storage": {
+    "vendors": [
+      "synology", "qnap", "netgear", "western digital", "wd",
+      "seagate", "drobo", "buffalo", "asustor", "terramaster",
+      "infortrend", "promise", "lacie", "g-technology",
+      "iomega", "maxtor", "verbatim", "toshiba", "hitachi",
+      "samsung", "crucial", "sandisk", "corsair", "kingston",
+      "transcend", "adata", "silicon power", "patriot", "pny"
+    ],
+    "hostnames": [
+      "nas", "synology", "qnap", "diskstation", "mycloud",
+      "readynas", "drobo", "storage", "fileserver", "ts-",
+      "ds-", "rs-", "fs-", "terra", "asustor", "buffalo"
+    ],
+    "services": ["445", "139", "21", "22", "80", "443", "5000", "5001", "8080"],
+    "type": "network-storage"
+  },
+
+  "printers": {
+    "vendors": [
+      "hp", "canon", "epson", "brother", "xerox", "ricoh",
+      "kyocera", "sharp", "konica", "lexmark", "samsung",
+      "oki", "pantum", "sindoh", "dell", "kodak", "fuji",
+      "toshiba", "olivetti", "develop", "triumph-adler",
+      "utax", "gestetner", "lanier", "savin", "infotec",
+      "nashuatec", "nrg", "rex-rotary", "aficio", "kyocera mita"
+    ],
+    "hostnames": [
+      "printer", "print", "hp", "canon", "epson", "brother",
+      "laserjet", "deskjet", "officejet", "pixma", "workforce",
+      "xerox", "ricoh", "kyocera", "sharp", "mfc-", "dcp-",
+      "hl-", "wf-", "xp-", "et-", "l-", "tm-", "wp-"
+    ],
+    "services": ["631", "9100", "515", "80", "443", "161"],
+    "mac_oui": [
+      "00:01:E6", "3C:D9:2B", "4C:39:09", "A0:B3:CC",
+      "00:00:85", "00:40:18", "A8:6D:AA", "E8:E5:D6",
+      "00:00:48", "64:EB:8C", "30:05:5C", "4C:0B:BE"
+    ],
+    "type": "printer"
+  },
+
+  "microcomputers": {
+    "vendors": [
+      "raspberry pi", "arduino", "nvidia", "intel", "rock",
+      "banana pi", "orange pi", "pine64", "hardkernel",
+      "friendlyarm", "libre computer", "asus tinker", "odroid",
+      "beaglebone", "cubieboard", "wandboard", "udoo",
+      "lattepanda", "up board", "atomic pi", "jetson",
+      "coral", "esp32", "esp8266", "nodemcu", "wemos"
+    ],
+    "hostnames": [
+      "raspberry", "raspberrypi", "pi", "arduino", "esp32",
+      "esp8266", "nodemcu", "jetson", "nano", "rock64",
+      "orange", "pine64", "tinker", "odroid", "beagle",
+      "coral", "lattepanda", "atomic", "udoo", "cubie"
+    ],
+    "type": "microcomputer"
+  },
+
+  "media_players": {
+    "vendors": [
+      "roku", "amazon", "nvidia", "apple", "google",
+      "xiaomi", "asus", "intel", "plex", "emby",
+      "jellyfin", "kodi", "osmc", "libreelec", "coreelec"
+    ],
+    "hostnames": [
+      "roku", "firestick", "firetv", "shield", "appletv",
+      "chromecast", "kodi", "plex", "emby", "jellyfin",
+      "mibox", "mi box", "osmc", "libreelec", "coreelec"
+    ],
+    "services": ["8096", "32400", "8920", "1900", "3005", "8324"],
+    "mac_oui": [
+      "B8:A1:75", "DC:FB:02", "B0:A7:37", "AC:3A:7A",
+      "FC:65:DE", "44:65:0D", "F0:D2:F1", "38:F7:3D",
+      "D4:6D:6D", "A0:A8:CD", "A8:96:75", "00:04:4B"
+    ],
+    "type": "media-player"
+  },
+
+  "security_systems": {
+    "vendors": [
+      "honeywell", "adt", "ring", "simplisafe", "vivint",
+      "brinks", "frontpoint", "abode", "scout", "canary",
+      "august", "yale", "kwikset", "schlage", "nest secure",
+      "alarm.com", "2gig", "qolsys", "dsc", "ademco",
+      "vista", "paradox", "elk", "napco", "bosch security",
+      "texecom", "risco", "pyronix", "galaxy", "menvier",
+      "euro-fire", "aritech", "siemens", "johnson controls",
+      "tyco", "utc", "interlogix", "ge security", "caddx"
+    ],
+    "hostnames": [
+      "alarm", "security", "panel", "keypad", "siren",
+      "motion", "contact", "glass", "smoke", "co",
+      "ring", "nest", "adt", "simplisafe", "vivint",
+      "2gig", "qolsys", "dsc", "vista", "honeywell"
+    ],
+    "services": ["80", "443", "1900", "3001", "8080"],
+    "type": "security-system"
+  },
+
+  "smart_appliances": {
+    "vendors": [
+      "whirlpool", "ge", "samsung", "lg", "bosch", "siemens",
+      "electrolux", "frigidaire", "kitchenaid", "maytag",
+      "kenmore", "amana", "hotpoint", "haier", "midea",
+      "hisense", "tcl", "sharp", "panasonic", "toshiba",
+      "mitsubishi", "daikin", "carrier", "trane", "lennox",
+      "rheem", "a.o. smith", "bradford white", "state",
+      "rinnai", "navien", "noritz", "takagi", "eccotemp"
+    ],
+    "hostnames": [
+      "washer", "dryer", "dishwasher", "refrigerator", "fridge",
+      "oven", "range", "cooktop", "microwave", "freezer",
+      "hvac", "thermostat", "water-heater", "furnace",
+      "ac", "air-conditioner", "heat-pump", "boiler",
+      "smart-appliance", "connected-appliance", "iot-appliance"
+    ],
+    "services": ["80", "443", "1883", "8883", "5353"],
+    "type": "smart-appliance"
+  },
+
+  "fitness_devices": {
+    "vendors": [
+      "peloton", "nordictrack", "bowflex", "schwinn", "keiser",
+      "life fitness", "precor", "cybex", "technogym", "matrix",
+      "sole", "horizon", "proform", "freemotion", "spirit",
+      "livestrong", "diamondback", "octane", "stairmaster", "concept2"
+    ],
+    "hostnames": [
+      "peloton", "bike", "treadmill", "elliptical", "rower",
+      "fitness", "exercise", "workout", "gym", "trainer",
+      "nordictrack", "bowflex", "schwinn", "life-fitness"
+    ],
+    "services": ["80", "443", "8080", "9443"],
+    "type": "fitness-device"
+  },
+
+  "automotive": {
+    "vendors": [
+      "tesla", "ford", "chevrolet", "gm", "toyota", "honda",
+      "nissan", "hyundai", "kia", "bmw", "mercedes", "audi",
+      "volkswagen", "volvo", "subaru", "mazda", "lexus",
+      "infiniti", "acura", "cadillac", "lincoln", "buick"
+    ],
+    "hostnames": [
+      "tesla", "model-s", "model-3", "model-x", "model-y",
+      "car", "vehicle", "auto", "sync", "uconnect",
+      "infotainment", "myford", "onstar", "android-auto", "carplay"
+    ],
+    "services": ["80", "443", "8080", "4070"],
+    "type": "automotive"
+  },
+
+  "medical_devices": {
+    "vendors": [
+      "philips", "ge healthcare", "siemens healthineers", "medtronic",
+      "abbott", "boston scientific", "dexcom", "tandem", "omnipod",
+      "freestyle", "accu-chek", "onetouch", "contour"
+    ],
+    "hostnames": [
+      "medical", "health", "monitor", "pump", "glucose",
+      "insulin", "heart", "bp", "blood-pressure", "oximeter",
+      "defibrillator", "pacemaker", "cpap", "bipap"
+    ],
+    "services": ["80", "443", "11073", "2762"],
+    "type": "medical-device"
+  },
+
+  "industrial_iot": {
+    "vendors": [
+      "siemens", "schneider electric", "abb", "rockwell automation",
+      "emerson", "honeywell", "yokogawa", "endress+hauser",
+      "sick", "ifm", "pepperl+fuchs", "turck", "banner",
+      "keyence", "omron", "mitsubishi electric", "fanuc"
+    ],
+    "hostnames": [
+      "plc", "hmi", "scada", "sensor", "actuator", "motor",
+      "drive", "inverter", "relay", "contactor", "switch",
+      "modbus", "profinet", "ethernet-ip", "devicenet"
+    ],
+    "services": ["502", "44818", "2222", "789", "4840"],
+    "type": "industrial-device"
+  },
+
+  "point_of_sale": {
+    "vendors": [
+      "square", "clover", "toast", "lightspeed", "shopify",
+      "shopkeep", "revel", "touchbistro", "upserve", "ncr",
+      "micros", "aloha", "positouch", "focus"
+    ],
+    "hostnames": [
+      "pos", "register", "terminal", "payment", "cash",
+      "square", "clover", "toast", "lightspeed", "shopify",
+      "card-reader", "pin-pad", "receipt", "printer"
+    ],
+    "services": ["80", "443", "8080", "9001", "3001"],
+    "type": "pos-system"
+  },
+
+  "networking_infrastructure": {
+    "vendors": [
+      "cisco", "juniper", "arista", "extreme", "brocade",
+      "foundry", "enterasys", "3com", "nortel", "avaya",
+      "alcatel-lucent", "adtran", "calix", "adva", "ciena",
+      "palo alto", "fortinet", "checkpoint", "sophos", "watchguard"
+    ],
+    "hostnames": [
+      "switch", "router", "firewall", "load-balancer", "proxy",
+      "access-point", "controller", "gateway", "bridge",
+      "repeater", "extender", "mesh", "wan", "lan", "vlan"
+    ],
+    "services": ["22", "23", "80", "443", "161", "162", "514"],
+    "type": "network-infrastructure"
+  }
+}
