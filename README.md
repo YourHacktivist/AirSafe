@@ -27,9 +27,7 @@ AirSafe is currently only available for **Windows computers**.
 ### How to get it
 
 1.  Go to the [releases page](https://github.com/YourHacktivist/AirSafe/releases).
-2.  Choose your preferred version:
-    -   **Portable Version:** Download `AirSafe-Portable-1.0.0.exe`. This version does not require installation. Simply double-click the file to run the application.
-    -   **Setup Version:** Download `AirSafe-Setup-1.0.0.exe`. Run the installer to set up AirSafe on your system.
+2.  Download `AirSafe-Setup-1.0.0.exe`. Run the installer to set up AirSafe on your system.
 
 ### How to use it
 
