@@ -41,6 +41,10 @@ When you open AirSafe for the first time, Windows might show a security warning.
 
 To continue, click on **More info**, then click **Run anyway**.
 
+## Disclaimer
+
+AirSafe is an open-source tool designed to raise awareness and facilitate the detection of potentially suspicious devices on a local network. It does not guarantee exhaustive or certain identification of hidden cameras or surveillance equipment. The user remains solely responsible for how the tool is used and for interpreting its results. AirSafe cannot be held liable for false positives, false negatives, or any use beyond its intended purpose.
+
 ## Contribute
 
 We welcome contributions ! If you have ideas for new features, bug fixes, or improvements, please feel free to open an issue or submit a pull request.
