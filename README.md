@@ -18,7 +18,7 @@ Through a deep scan, AirSafe lists connected devices, assigns a trust score, and
 AirSafe requires **Nmap**, a widely-used and powerful open-source network scanning utility.  
 You must have Nmap installed on your system for AirSafe to function correctly.
 
--   You can download and install Nmap from here: [https://nmap.org/download.html](https://nmap.org/download.html)
+-   You can download and install Nmap from here: [nmap.org](https://nmap.org/download.html#windows)
 
 ## Usage
 
